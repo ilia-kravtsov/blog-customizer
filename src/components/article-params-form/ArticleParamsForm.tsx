@@ -24,7 +24,7 @@ type TArticleParamsForm = {
 };
 
 export const ArticleParamsForm = ({ setApp }: TArticleParamsForm) => {
-	const [isFormOpened, setIsFormOpened] = useState<boolean>(true);
+	const [isFormOpened, setIsFormOpened] = useState<boolean>(false);
 	const [form, setForm] = useState<ArticleStateType>(defaultArticleState);
 
 	const handleFormOpener = () => {
