@@ -25,7 +25,8 @@
 			"src/*": ["src/*"],
 			"fonts/*": ["src/fonts/*"],
 			"components/*": ["src/components/*"]
-		}
+		},
+		"types": ["node"]
 	},
 	"outDir": "./dist/",
 	"include": ["src/**/*"]
